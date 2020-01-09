@@ -1,6 +1,4 @@
-/**
- * Created by urijkunicyn on 09/01/2020.
- */
+
 interface Calculator {
     int calculate(int a, int b);
 }
@@ -10,7 +8,7 @@ class CalculatorAdd implements Calculator {
 
     public int calculate(int a, int b) {
         System.out.println("Функция сложения");
-        return a + b;  // Do an addition with a and b
+        return a + b; 
     }
 }
 
@@ -18,7 +16,7 @@ class CalculatorSubtract implements Calculator {
 
     public int calculate(int a, int b) {
         System.out.println("Функиция вычитания");
-        return a - b;  // Do a subtraction with a and b
+        return a - b;  
     }
 }
 
@@ -26,14 +24,14 @@ class CalculatorMultiply implements Calculator {
 
     public int calculate(int a, int b) {
         System.out.println("функция умножения");
-        return a * b;   // Do a multiplication with a and b
+        return a * b;   
     }
 }
 class CalculatorRaiseToPower implements Calculator {
 
     public int calculate(int a, int b) {
         System.out.println("функция умножения");
-        return  (int) Math.pow(a,b);   // Do a multiplication with a and b
+        return  (int) Math.pow(a,b);   
     }
 }
 
